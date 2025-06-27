@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "25f083f6539a1ae385e0cca82b4c960b",
+    "packages": [
+        {
+            "name": "major/sitemapgenerator",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BoomBot1/sitemap_generator.git",
+                "reference": "e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BoomBot1/sitemap_generator/zipball/e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0",
+                "reference": "e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=8.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TestPackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Sitemap generator as test task for pyrobyte",
+            "support": {
+                "issues": "https://github.com/BoomBot1/sitemap_generator/issues",
+                "source": "https://github.com/BoomBot1/sitemap_generator/tree/main"
+            },
+            "time": "2025-06-27T03:23:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "major/sitemapgenerator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

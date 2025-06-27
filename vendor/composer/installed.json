@@ -1,0 +1,42 @@
+{
+    "packages": [
+        {
+            "name": "major/sitemapgenerator",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BoomBot1/sitemap_generator.git",
+                "reference": "e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BoomBot1/sitemap_generator/zipball/e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0",
+                "reference": "e2f10f916dc3d70b2ee6ac60966d55b8ca58cfa0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=8.3"
+            },
+            "time": "2025-06-27T03:23:55+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TestPackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Sitemap generator as test task for pyrobyte",
+            "support": {
+                "issues": "https://github.com/BoomBot1/sitemap_generator/issues",
+                "source": "https://github.com/BoomBot1/sitemap_generator/tree/main"
+            },
+            "install-path": "../major/sitemapgenerator"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
